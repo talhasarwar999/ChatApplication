@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block title %} index {% endblock title %}
+
+{% block body %}
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 offset-md-2">
+			<button class="btn btn-secondary my-3 mr-5">All Users</button>
+       <a href="{% url 'frnds' %}" class="btn btn-danger ml-5">
+                     Go to Friends Page
+                    </a>
+		<div class="table-responsive">
+  <table class="table">
+    {% if user.is_authenticated %}
+    {% if allusers %}
+    <thead>
+    <tr>
+      
+      <th scope="col">FirstName</th>
+      <th scope="col">Add Friend</th>
+    </tr>
+  </thead>
+  <tbody>
+  	{% for all in allusers %}
+    {% if reuser == all.username or all.is_superuser %}
+
+    {% else %}
+    <tr>
+      <td>{{all.username}}</td>
+    <td><a class="btn px-3 py-2" style="background-color: blue;color:white;font-weight:500" href="{% url 'myown' receiver=all.username %}">Add Friend</a></td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+    {% else %}
+    <div class="alert alert-warning" role="alert">
+  No Records!
+</div>
+{% endif %}
+{% else %}
+    <div class="alert alert-warning" role="alert">
+  Please Login First!
+</div>
+{% endif %}
+  
+  </tbody>
+  </table>
+</div>
+
+	</div>
+</div>
+</div>
+{% endblock body %}

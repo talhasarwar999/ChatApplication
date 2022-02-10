@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="779935e1-100b-433f-b151-b49f673808ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chats/tokens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chatapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chatapp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chats/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/chats/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chats/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/chats/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chats/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/chats/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chats/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/chats/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chats/templates/chats/Communication.html" beforeDir="false" afterPath="$PROJECT_DIR$/chats/templates/chats/Communication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chats/templates/chats/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/chats/templates/chats/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chats/templates/chats/Signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/chats/templates/chats/Signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chats/templates/chats/friendspage.html" beforeDir="false" afterPath="$PROJECT_DIR$/chats/templates/chats/friendspage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chats/templates/chats/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chats/templates/chats/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chats/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chats/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chats/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chats/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Libraryman/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Libraryman/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Libraryman/library/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Libraryman/library/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$APPLICATION_HOME_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/chats/views.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1wqDjzElUyPaWexoluaq56OY7rM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/untitled4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ittefaq\PyCharm Community Edition 2019.2.1\Chatapp\chats" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="779935e1-100b-433f-b151-b49f673808ec" name="Default Changelist" comment="" />
+      <created>1629177363496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629177363496</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chats/admin.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

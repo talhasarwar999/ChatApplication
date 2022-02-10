@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title %} Friends|page {% endblock title %}
+
+{% block body %}
+<div class="container">
+    
+    <div class="row mb-3 mt-3">
+        <div class="col-md-6">
+            <a class="btn btn-success btns mb-2" href="{% url 'frndrequests' %}"> See All Friends Requests </a>
+        </div>
+        <div class="col-md-6">
+            <a class="btn btn-success btns mb-2" href="{% url 'frnds' %}"> See All Friends</a>
+        </div>
+    </div></div>
+    <div class="container mb-5">
+    <div class="row mb-5">
+        <div class="col-md-6 mb-5">
+            <table class="table table-striped table-responsive">
+                <thead>
+                    <tr>
+                        <th scope="col">{{errMsg}}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for frndReq in frdrequests %}
+                    <tr>
+                        <td>{{frndReq.senderFriend}} sent you a friend request<a class="btn btn-primary ml-2" href="{% url 'acceptReq' receiver=frndReq.senderFriend %}"> Confirm</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>	
+            </table>
+        </div>
+        <div class="col-md-6 mb-5">
+            <table class="table table-striped table-responsive">
+                <tbody>
+                     {% for frnd in frnds %}
+                    <tr>
+                        <td>{{frnd.0}}</td>
+                        <td><a class="btn btn-success" href="{% url 'GoToSendMsg' receiver=frnd.0 %}"> Chat</a></td>
+                        {% if frnd.1 == 0 %}
+                        
+{% else %}
+<td><button type="button" class="btn btn-danger" style="border-radius: 47%;">
+  <span class="badge badge-light">{{frnd.1}}</span>
+</button></td>
+{% endif %}
+<td><a class="btn btn-primary" href="/dels/{{frnd.frnd.id}}">UnFriend</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
